@@ -63,6 +63,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [fale.byethost7.com](http://www.fale.byethost7.com/Portfolio/)
+- GitHub [@Re2devils](https://github.com/Re2devils/)
+- Twitter [@LeTrueRed](https://twitter.com/LeTrueRed/)
