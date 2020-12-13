@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="teamgrid.netlify.app">
+    <a href="https://teamgrid.netlify.app/">
       Demo
     </a>
     <span> | </span>
