@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+.wrapper {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    padding: 10px;
+    .text-span {
+        .title {
+            h1 {
+                padding-top: 70px;
+                font-family: 'PT Serif', serif;
+                font-size: 36px;
+                line-height: 48px;
+                letter-spacing: -0.045em;
+                font-weight: bold;
+                font-style: normal;
+            }
+        }
+        .describe {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            line-height: 27px;
+            h3 {
+                padding-top: 40px;
+                font-weight: 600px;
+                text-transform: uppercase;
+            }
+            p {
+                padding: 20px 0;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+    .images-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-gap: 15px;
+        padding: 5px;
+        .image-box:nth-child(even) {
+            margin-top: 50px;
+        }
+        .image-box {
+            width: 100%;
+            position: relative;
+            .position {
+                position: absolute;
+                font-family: 'PT Serif', serif;
+                font-size: 10px;
+                line-height: 13px;
+                text-transform: uppercase;
+                writing-mode: vertical-lr;
+                top: 0;
+                right: 0px;
+            }
+            .name {
+                font-family: 'Poppins', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .footer {
+        text-align: center;
+        margin: 50px 0 0 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+    .wrapper {
+        margin: 0 auto;
+        width: 80%;
+        .images-container {
+            grid-gap: 25px;
+            grid-template-columns: repeat(3, 1fr);
+            .image-box:nth-child(even) {
+                margin-top: 0;
+            }
+            .image-box:nth-child(5), .image-box:nth-child(2) {
+                margin-top: 50%;
+            }
+            .image-box {
+                .position {
+                    font-size: 12px;
+                    right: 10px;
+                }
+                .name {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
