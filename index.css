@@ -74,6 +74,13 @@ body {
   .wrapper {
     margin: 0 auto;
     width: 80%; }
+    .wrapper .text-span {
+      display: flex;
+      margin-bottom: 50px; }
+      .wrapper .text-span .title, .wrapper .text-span .describe {
+        width: 50%; }
+      .wrapper .text-span .title h1 {
+        padding-top: 40px; }
     .wrapper .images-container {
       grid-gap: 25px;
       grid-template-columns: repeat(3, 1fr); }

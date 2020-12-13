@@ -91,6 +91,18 @@ body {
     .wrapper {
         margin: 0 auto;
         width: 80%;
+        .text-span {
+            display: flex;
+            margin-bottom: 50px;
+            .title, .describe {
+                width: 50%;
+            }
+            .title {
+                h1 {
+                    padding-top: 40px;
+                }
+            }
+        }
         .images-container {
             grid-gap: 25px;
             grid-template-columns: repeat(3, 1fr);
